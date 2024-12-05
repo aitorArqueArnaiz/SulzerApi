@@ -3,6 +3,18 @@
   "WorkspaceRootPath": "C:\\Users\\aitor\\Downloads\\SulzerApi\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{817FBB0F-4A15-4C01-8A9F-CCE149F802CC}|Sulzer.Domain\\Sulzer.Domain.csproj|c:\\users\\aitor\\downloads\\sulzerapi\\sulzer.domain\\entities\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{817FBB0F-4A15-4C01-8A9F-CCE149F802CC}|Sulzer.Domain\\Sulzer.Domain.csproj|solutionrelative:sulzer.domain\\entities\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{817FBB0F-4A15-4C01-8A9F-CCE149F802CC}|Sulzer.Domain\\Sulzer.Domain.csproj|c:\\users\\aitor\\downloads\\sulzerapi\\sulzer.domain\\entities\\orderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{817FBB0F-4A15-4C01-8A9F-CCE149F802CC}|Sulzer.Domain\\Sulzer.Domain.csproj|solutionrelative:sulzer.domain\\entities\\orderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{817FBB0F-4A15-4C01-8A9F-CCE149F802CC}|Sulzer.Domain\\Sulzer.Domain.csproj|c:\\users\\aitor\\downloads\\sulzerapi\\sulzer.domain\\entities\\price.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{817FBB0F-4A15-4C01-8A9F-CCE149F802CC}|Sulzer.Domain\\Sulzer.Domain.csproj|solutionrelative:sulzer.domain\\entities\\price.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{3041BC60-7778-4C31-A5FA-B42AE5BDD1E9}|Elementos de la soluci\u00F3n{3041BC60-7778-4C31-A5FA-B42AE5BDD1E9}|C:\\Users\\aitor\\Downloads\\SulzerApi\\README.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
       "RelativeMoniker": "D:0:0:{3041BC60-7778-4C31-A5FA-B42AE5BDD1E9}|Elementos de la soluci\u00F3n{3041BC60-7778-4C31-A5FA-B42AE5BDD1E9}|solutionrelative:README.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
     },
@@ -18,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -30,7 +42,46 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Price.cs",
+              "DocumentMoniker": "C:\\Users\\aitor\\Downloads\\SulzerApi\\Sulzer.Domain\\Entities\\Price.cs",
+              "RelativeDocumentMoniker": "Sulzer.Domain\\Entities\\Price.cs",
+              "ToolTip": "C:\\Users\\aitor\\Downloads\\SulzerApi\\Sulzer.Domain\\Entities\\Price.cs",
+              "RelativeToolTip": "Sulzer.Domain\\Entities\\Price.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T12:34:09.921Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "OrderItem.cs",
+              "DocumentMoniker": "C:\\Users\\aitor\\Downloads\\SulzerApi\\Sulzer.Domain\\Entities\\OrderItem.cs",
+              "RelativeDocumentMoniker": "Sulzer.Domain\\Entities\\OrderItem.cs",
+              "ToolTip": "C:\\Users\\aitor\\Downloads\\SulzerApi\\Sulzer.Domain\\Entities\\OrderItem.cs",
+              "RelativeToolTip": "Sulzer.Domain\\Entities\\OrderItem.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T12:33:45.892Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Order.cs",
+              "DocumentMoniker": "C:\\Users\\aitor\\Downloads\\SulzerApi\\Sulzer.Domain\\Entities\\Order.cs",
+              "RelativeDocumentMoniker": "Sulzer.Domain\\Entities\\Order.cs",
+              "ToolTip": "C:\\Users\\aitor\\Downloads\\SulzerApi\\Sulzer.Domain\\Entities\\Order.cs",
+              "RelativeToolTip": "Sulzer.Domain\\Entities\\Order.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T12:33:21.673Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "README.md",
               "DocumentMoniker": "C:\\Users\\aitor\\Downloads\\SulzerApi\\README.md",
               "RelativeDocumentMoniker": "README.md",
@@ -43,7 +94,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "WeatherForecast.cs",
               "DocumentMoniker": "C:\\Users\\aitor\\Downloads\\SulzerApi\\SulzerApi\\WeatherForecast.cs",
               "RelativeDocumentMoniker": "SulzerApi\\WeatherForecast.cs",
