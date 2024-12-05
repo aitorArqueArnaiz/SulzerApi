@@ -9,7 +9,7 @@ namespace Sulzer.Domain.Models
 {
     public class CustomerOrder
     {
-        public IEnumerable<Order> Orders { get; set; }
+        public IDictionary<string, OrderItem> Items { get; set; }
 
     }
 }

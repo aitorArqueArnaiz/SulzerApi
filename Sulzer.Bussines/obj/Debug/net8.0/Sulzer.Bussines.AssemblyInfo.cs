@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Sulzer.Bussines")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9285de1dcf89c9fc9da2307e1f039a1e0c50ab53")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f2adabf55c42af8e9743e66691c3683a20ff9fba")]
 [assembly: System.Reflection.AssemblyProductAttribute("Sulzer.Bussines")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Sulzer.Bussines")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
