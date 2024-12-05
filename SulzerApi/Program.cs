@@ -1,3 +1,4 @@
+using AutoMapper;
 using Sulzer.Domain.Interfaces;
 using Sulzer.Domain.Services;
 using Sulzer.Repository.Interfaces;
@@ -15,7 +16,7 @@ builder.Services.AddSwaggerGen();
 // Dependency injection.
 builder.Services.AddScoped<IOrderService, OrderService>();
 builder.Services.AddScoped<IInMemmoryRepository, InMemmoryRepository>();
-
+builder.Services.AddAutoMapper(typeof(AutoMapperProfile));
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -26,6 +27,7 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
+app.UseAuthentication();
 
 app.UseAuthorization();
 

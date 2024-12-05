@@ -1,4 +1,5 @@
 ﻿using Sulzer.Domain.Entities;
+using Sulzer.Domain.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,6 +10,6 @@ namespace Sulzer.Domain.Interfaces
 {
     public interface IOrderService
     {
-        Task<Price> CalculateOrderTotalPriceAsync(IEnumerable<Order> orders);
+        Task<Price> CalculateOrderTotalPriceAsync(CustomerOrder order);
     }
 }
