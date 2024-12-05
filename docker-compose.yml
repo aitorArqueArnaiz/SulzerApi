@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  sulzerapi:
+    image: ${DOCKER_REGISTRY-}sulzerapi
+    build:
+      context: .
+      dockerfile: SulzerApi/Dockerfile
