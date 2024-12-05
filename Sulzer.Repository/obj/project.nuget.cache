@@ -1,8 +1,17 @@
 {
   "version": 2,
-  "dgSpecHash": "mLL15bvtHSjjrPZG2TdgFSL3V5SmYboOR/bQKZf81etkYAIuod/b+eqkCwRwz92RiGCdU8lTumOadMhQKPSH7Q==",
+  "dgSpecHash": "m/QARboPBj0E/Scb8fh72k0NlwTONX8xO/xZd1dW4XB2jKV+2b5GQzarp4n/dYGzWdEZ398DbbkgpWL9zO7I9A==",
   "success": true,
   "projectFilePath": "C:\\Users\\aitor\\Downloads\\SulzerApi\\Sulzer.Repository\\Sulzer.Repository.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\aitor\\.nuget\\packages\\anycache.core\\1.0.1\\anycache.core.1.0.1.nupkg.sha512",
+    "C:\\Users\\aitor\\.nuget\\packages\\anycache.inmemory\\1.0.2\\anycache.inmemory.1.0.2.nupkg.sha512",
+    "C:\\Users\\aitor\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\3.1.6\\microsoft.extensions.caching.abstractions.3.1.6.nupkg.sha512",
+    "C:\\Users\\aitor\\.nuget\\packages\\microsoft.extensions.caching.memory\\3.1.6\\microsoft.extensions.caching.memory.3.1.6.nupkg.sha512",
+    "C:\\Users\\aitor\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\3.1.6\\microsoft.extensions.dependencyinjection.abstractions.3.1.6.nupkg.sha512",
+    "C:\\Users\\aitor\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\3.1.6\\microsoft.extensions.logging.abstractions.3.1.6.nupkg.sha512",
+    "C:\\Users\\aitor\\.nuget\\packages\\microsoft.extensions.options\\3.1.6\\microsoft.extensions.options.3.1.6.nupkg.sha512",
+    "C:\\Users\\aitor\\.nuget\\packages\\microsoft.extensions.primitives\\3.1.6\\microsoft.extensions.primitives.3.1.6.nupkg.sha512"
+  ],
   "logs": []
 }

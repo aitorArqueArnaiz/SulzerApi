@@ -6,4 +6,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Sulzer.Domain\Sulzer.Domain.csproj" />
+  </ItemGroup>
+
 </Project>

@@ -15,4 +15,10 @@
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Sulzer.Bussines\Sulzer.Bussines.csproj" />
+    <ProjectReference Include="..\Sulzer.Domain\Sulzer.Domain.csproj" />
+    <ProjectReference Include="..\Sulzer.Repository\Sulzer.Repository.csproj" />
+  </ItemGroup>
+
 </Project>

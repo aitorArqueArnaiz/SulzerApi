@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Sulzer.Repository")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+60ef31e48733f2cd1c220e57707ad4d338ff3c12")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e28d7a6d6ea66b0a48bcecfb61e860104f7dc4da")]
 [assembly: System.Reflection.AssemblyProductAttribute("Sulzer.Repository")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Sulzer.Repository")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
