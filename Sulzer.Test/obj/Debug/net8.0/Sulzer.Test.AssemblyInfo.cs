@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Sulzer.Test")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7267bb3ddf686c2da5c2853eff69c0e17886c05e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9e2400933f78ba0e149c93d67df6a49843c92c07")]
 [assembly: System.Reflection.AssemblyProductAttribute("Sulzer.Test")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Sulzer.Test")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -19,7 +19,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\SulzerApi\Sulzer.Bussines\Sulzer.Bussines.csproj" />
+    <ProjectReference Include="..\Sulzer.Bussines\Sulzer.Bussines.csproj" />
+    <ProjectReference Include="..\Sulzer.Domain\Sulzer.Domain.csproj" />
   </ItemGroup>
 
   <ItemGroup>

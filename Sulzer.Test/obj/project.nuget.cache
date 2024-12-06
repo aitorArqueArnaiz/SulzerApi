@@ -1,13 +1,21 @@
 {
   "version": 2,
-  "dgSpecHash": "rpRERbZWJ2y3R04qtvLm9H7NLEDZi8pJcXdHhPt+NFhWL5QdG7PuD5mkHmSKPHxSYujYKOkmGuhQ25vanpSqSQ==",
-  "success": false,
+  "dgSpecHash": "Pauq8pI+/tdGza8VcGCkvXkfs6MZrSBLpeIc6wAbiqe5/UR3WOVo0+roK1XJlVCbTRXvVtJFs4CwC3pkDD8PkQ==",
+  "success": true,
   "projectFilePath": "C:\\Users\\aitor\\Downloads\\SulzerApi\\Sulzer.Test\\Sulzer.Test.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\aitor\\.nuget\\packages\\anycache.core\\1.0.1\\anycache.core.1.0.1.nupkg.sha512",
+    "C:\\Users\\aitor\\.nuget\\packages\\anycache.inmemory\\1.0.2\\anycache.inmemory.1.0.2.nupkg.sha512",
     "C:\\Users\\aitor\\.nuget\\packages\\castle.core\\5.1.1\\castle.core.5.1.1.nupkg.sha512",
     "C:\\Users\\aitor\\.nuget\\packages\\coverlet.collector\\6.0.0\\coverlet.collector.6.0.0.nupkg.sha512",
     "C:\\Users\\aitor\\.nuget\\packages\\fluentassertions\\7.0.0\\fluentassertions.7.0.0.nupkg.sha512",
     "C:\\Users\\aitor\\.nuget\\packages\\microsoft.codecoverage\\17.8.0\\microsoft.codecoverage.17.8.0.nupkg.sha512",
+    "C:\\Users\\aitor\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\3.1.6\\microsoft.extensions.caching.abstractions.3.1.6.nupkg.sha512",
+    "C:\\Users\\aitor\\.nuget\\packages\\microsoft.extensions.caching.memory\\3.1.6\\microsoft.extensions.caching.memory.3.1.6.nupkg.sha512",
+    "C:\\Users\\aitor\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\3.1.6\\microsoft.extensions.dependencyinjection.abstractions.3.1.6.nupkg.sha512",
+    "C:\\Users\\aitor\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\3.1.6\\microsoft.extensions.logging.abstractions.3.1.6.nupkg.sha512",
+    "C:\\Users\\aitor\\.nuget\\packages\\microsoft.extensions.options\\3.1.6\\microsoft.extensions.options.3.1.6.nupkg.sha512",
+    "C:\\Users\\aitor\\.nuget\\packages\\microsoft.extensions.primitives\\3.1.6\\microsoft.extensions.primitives.3.1.6.nupkg.sha512",
     "C:\\Users\\aitor\\.nuget\\packages\\microsoft.net.test.sdk\\17.8.0\\microsoft.net.test.sdk.17.8.0.nupkg.sha512",
     "C:\\Users\\aitor\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\aitor\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
@@ -105,15 +113,5 @@
     "C:\\Users\\aitor\\.nuget\\packages\\xunit.extensibility.execution\\2.5.3\\xunit.extensibility.execution.2.5.3.nupkg.sha512",
     "C:\\Users\\aitor\\.nuget\\packages\\xunit.runner.visualstudio\\2.5.3\\xunit.runner.visualstudio.2.5.3.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "NU1104",
-      "level": "Error",
-      "message": "No se encuentra el proyecto \"C:\\Users\\aitor\\Downloads\\SulzerApi\\SulzerApi\\Sulzer.Bussines\\Sulzer.Bussines.csproj\". Compruebe que la referencia al proyecto sea válida y que exista el archivo de proyecto.",
-      "libraryId": "C:\\Users\\aitor\\Downloads\\SulzerApi\\SulzerApi\\Sulzer.Bussines\\Sulzer.Bussines.csproj",
-      "targetGraphs": [
-        "net8.0"
-      ]
-    }
-  ]
+  "logs": []
 }
