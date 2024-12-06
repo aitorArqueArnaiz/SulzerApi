@@ -7,7 +7,6 @@ using SulzerApi.DTOs.Request;
 
 namespace SulzerApi.Controllers
 {
-    [Authorize]
     [ApiController]
     [Route("[controller]")]
     public class CustomerOrdersController : ControllerBase
@@ -23,7 +22,7 @@ namespace SulzerApi.Controllers
             _mapper = mapper;
         }
 
-        [HttpGet(Name = "GetWeatherForecast")]
+        [HttpPost(Name = "CalculateOrderTotalPrice")]
         public async Task<IActionResult> CalculateOrderTotalPriceAsync(CustomerOrderRequest request)
         {
             try

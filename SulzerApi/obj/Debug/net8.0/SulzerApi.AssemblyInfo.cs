@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SulzerApi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9e2400933f78ba0e149c93d67df6a49843c92c07")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a7aeb398c6d569f5e9bddc4cab93c5a3e4a013de")]
 [assembly: System.Reflection.AssemblyProductAttribute("SulzerApi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SulzerApi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

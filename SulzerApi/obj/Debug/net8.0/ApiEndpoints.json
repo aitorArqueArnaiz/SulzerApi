@@ -3,7 +3,7 @@
     "ContainingType": "SulzerApi.Controllers.CustomerOrdersController",
     "Method": "CalculateOrderTotalPriceAsync",
     "RelativePath": "CustomerOrders",
-    "HttpMethod": "GET",
+    "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
     "Parameters": [
