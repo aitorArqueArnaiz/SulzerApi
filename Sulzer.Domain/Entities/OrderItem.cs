@@ -9,6 +9,12 @@ namespace Sulzer.Domain.Entities
     public class OrderItem
     {
         public int Quantity { get; set; }
-        public required Price UnitPrice { get; set; }
+        public Price UnitPrice { get; set; }
+
+        public OrderItem(int quantity, Price unitPrice)
+        {
+            Quantity = quantity;
+            UnitPrice = unitPrice;
+        }
     }
 }

@@ -1,48 +1,45 @@
 ﻿using Sulzer.Domain.Entities;
 using Sulzer.Domain.Interfaces;
 using Sulzer.Domain.Models;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Sulzer.Domain.Services
 {
     public class OrderService : IOrderService
     {
+        private readonly decimal TotalForDiscount = 1000.00M;
+        private readonly decimal ItemDiscount = 0.10M;
+        private readonly decimal TotalPriceDiscount = 0.05M;
+
         public async Task<Price> CalculateOrderTotalPriceAsync(CustomerOrder order)
         {
-            Price totalOrderPrice = new Price();
-            totalOrderPrice.Gross = order.Items.Sum(x => x.Value.UnitPrice.Net);
-            if (order == null)
+            Price totalOrderPrice = new Price(0.0M, 0.0M);
+            totalOrderPrice.Gross = order.Items.Sum(x => x.Value.UnitPrice.Gross * x.Value.Quantity);
+            if (order == null || !order.Items.Any())
             {
                 throw new ArgumentNullException("Null order");
             }
-            if (totalOrderPrice.Gross > 100.0M)
-            {
-                totalOrderPrice.Net = totalOrderPrice.Gross * 0.05M;
-                return totalOrderPrice;
-            }
 
             // Check if the number of items in order is major than three elements.
-            int numberOfSameItem = 0;
-            var totalprice = new Price() { Gross = totalOrderPrice.Gross };
-            decimal price = 0.0M;
             foreach (var item in order.Items)
             {
-                numberOfSameItem = order.Items.ToLookup(x => x.Key == item.Key).Count;
-                if (numberOfSameItem >= 3) 
+                if (item.Value.Quantity >= 3)
                 {
-                    price += item.Value.UnitPrice.Gross * 0.10M;
+                    totalOrderPrice.Net += (item.Value.UnitPrice.Gross * item.Value.Quantity) 
+                        - (ItemDiscount * (item.Value.UnitPrice.Gross * item.Value.Quantity));
                 }
                 else
                 {
-                    price = item.Value.UnitPrice.Gross;
+                    totalOrderPrice.Net += (item.Value.UnitPrice.Gross * item.Value.Quantity);
                 }
             }
-            totalprice.Net = price;
-            return totalprice;
+
+            if (totalOrderPrice.Gross > TotalForDiscount)
+            {
+                totalOrderPrice.Net = totalOrderPrice.Net - (totalOrderPrice.Net * TotalPriceDiscount);
+                return totalOrderPrice;
+            }
+
+            return totalOrderPrice;
         }
     }
 }

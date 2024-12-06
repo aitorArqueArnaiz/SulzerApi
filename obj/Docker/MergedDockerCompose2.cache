@@ -1,0 +1,12 @@
+name: dockercompose15591467878304970327
+services:
+  sulzerapi:
+    build:
+      context: C:\Users\aitor\Downloads\SulzerApi
+      dockerfile: SulzerApi/Dockerfile
+    image: sulzerapi
+    networks:
+      default: null
+networks:
+  default:
+    name: dockercompose15591467878304970327_default

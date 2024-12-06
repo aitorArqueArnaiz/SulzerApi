@@ -1,0 +1,18 @@
+[
+  {
+    "ContainingType": "SulzerApi.Controllers.CustomerOrdersController",
+    "Method": "CalculateOrderTotalPriceAsync",
+    "RelativePath": "CustomerOrders",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "SulzerApi.DTOs.Request.CustomerOrderRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

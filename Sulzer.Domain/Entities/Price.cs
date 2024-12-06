@@ -10,5 +10,11 @@ namespace Sulzer.Domain.Entities
     {
         public decimal Net {  get; set; }
         public decimal Gross { get; set; }
+
+        public Price(decimal net, decimal gross)
+        {
+            Net = net;
+            Gross = gross;
+        }
     }
 }

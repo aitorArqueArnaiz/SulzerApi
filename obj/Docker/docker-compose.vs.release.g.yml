@@ -2,7 +2,7 @@ version: '3.4'
 
 services:
   sulzerapi:
-    container_name: "SulzerApi"
+    container_name: "SulzerApi_1"
     build:
       args:
         BUILD_CONFIGURATION: Release

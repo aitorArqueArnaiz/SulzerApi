@@ -4,7 +4,7 @@
     <ProjectVersion>2.1</ProjectVersion>
     <DockerTargetOS>Linux</DockerTargetOS>
     <DockerPublishLocally>False</DockerPublishLocally>
-    <ProjectGuid>0809e36c-70cf-4a61-8916-972e001ccc40</ProjectGuid>
+    <ProjectGuid>d01c67fe-abe4-4e72-958d-0c2bd43cda64</ProjectGuid>
     <DockerLaunchAction>LaunchBrowser</DockerLaunchAction>
     <DockerServiceUrl>{Scheme}://localhost:{ServicePort}/swagger</DockerServiceUrl>
     <DockerServiceName>sulzerapi</DockerServiceName>

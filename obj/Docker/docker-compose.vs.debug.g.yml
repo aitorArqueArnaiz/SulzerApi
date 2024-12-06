@@ -3,7 +3,7 @@ version: '3.4'
 services:
   sulzerapi:
     image: sulzerapi:dev
-    container_name: "SulzerApi"
+    container_name: "SulzerApi_1"
     build:
       args:
         BUILD_CONFIGURATION: Debug

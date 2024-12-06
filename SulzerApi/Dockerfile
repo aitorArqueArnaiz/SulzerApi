@@ -10,6 +10,9 @@ FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
 ARG BUILD_CONFIGURATION=Release
 WORKDIR /src
 COPY ["SulzerApi/SulzerApi.csproj", "SulzerApi/"]
+COPY ["Sulzer.Bussines/Sulzer.Bussines.csproj", "Sulzer.Bussines/"]
+COPY ["Sulzer.Domain/Sulzer.Domain.csproj", "Sulzer.Domain/"]
+COPY ["Sulzer.Repository/Sulzer.Repository.csproj", "Sulzer.Repository/"]
 RUN dotnet restore "./SulzerApi/SulzerApi.csproj"
 COPY . .
 WORKDIR "/src/SulzerApi"
