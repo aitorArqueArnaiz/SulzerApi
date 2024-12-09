@@ -1,3 +1,10 @@
+WebApi Project .Net 8. Run it with :
+
+- Swagger
+- Unit test solution.
+
+Added dockerfile for kubernettes deploy.
+
 Some points to clarify :
 If i would have more time i would implement :
 
